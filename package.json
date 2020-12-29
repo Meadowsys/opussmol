@@ -1,0 +1,33 @@
+{
+   "name": "opussmol",
+   "version": "0.1.0",
+   "private": true,
+   "description": "don't ask ok? i update this later",
+   "main": "build/index.js",
+   "bin": {
+      "opussmol": "./build/cli"
+   },
+   "scripts": {
+      "test": "echo none lol"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/autumnblazey/opussmol.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/autumnblazey/opussmol/issues"
+   },
+   "homepage": "https://github.com/autumnblazey/opussmol#readme",
+   "dependencies": {
+      "execa": "^5.0.0",
+      "fs-extra": "^9.0.1"
+   },
+   "devDependencies": {
+      "@types/fs-extra": "^9.0.6",
+      "eslint": "^7.16.0",
+      "typescript": "^4.1.3"
+   }
+}
