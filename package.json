@@ -23,7 +23,8 @@
    "homepage": "https://github.com/autumnblazey/opussmol#readme",
    "dependencies": {
       "execa": "^5.0.0",
-      "fs-extra": "^9.0.1"
+      "fs-extra": "^9.0.1",
+      "immutable": "^4.0.0-rc.12"
    },
    "devDependencies": {
       "@types/fs-extra": "^9.0.6",

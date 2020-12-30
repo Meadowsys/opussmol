@@ -1,6 +1,7 @@
 dependencies:
   execa: 5.0.0
   fs-extra: 9.0.1
+  immutable: 4.0.0-rc.12
 devDependencies:
   '@types/fs-extra': 9.0.6
   eslint: 7.16.0
@@ -490,6 +491,10 @@ packages:
       node: '>= 4'
     resolution:
       integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
+  /immutable/4.0.0-rc.12:
+    dev: false
+    resolution:
+      integrity: sha512-0M2XxkZLx/mi3t8NVwIm1g8nHoEmM9p9UBl/G9k4+hm0kBgOVdMV/B3CY5dQ8qG8qc80NN4gDV4HQv6FTJ5q7A==
   /import-fresh/3.3.0:
     dependencies:
       parent-module: 1.0.1
@@ -879,4 +884,5 @@ specifiers:
   eslint: ^7.16.0
   execa: ^5.0.0
   fs-extra: ^9.0.1
+  immutable: ^4.0.0-rc.12
   typescript: ^4.1.3
