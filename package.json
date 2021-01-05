@@ -1,6 +1,6 @@
 {
    "name": "opussmol",
-   "version": "0.1.0",
+   "version": "0.1.1",
    "description": "don't ask ok? i update this later",
    "main": "build/index.js",
    "bin": {
@@ -9,6 +9,9 @@
    "engines": {
       "node": ">=14.0.0"
    },
+   "files": [
+      "build"
+   ],
    "scripts": {
       "clean": "rimraf build",
       "build": "npm run clean && npm run build:main && npm run build:types && npm run build:cli",
