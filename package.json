@@ -1,7 +1,6 @@
 {
    "name": "opussmol",
    "version": "0.1.0",
-   "private": true,
    "description": "don't ask ok? i update this later",
    "main": "build/index.js",
    "bin": {
