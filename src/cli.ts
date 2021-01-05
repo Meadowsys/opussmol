@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { go, goalsize } from "."
 import yargs from "yargs";
 import { bgWhiteBright, red, green, reset } from "chalk";

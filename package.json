@@ -5,14 +5,17 @@
    "description": "don't ask ok? i update this later",
    "main": "build/index.js",
    "bin": {
-      "opussmol": "./build/cli"
+      "opussmol": "./build/clibundle.js"
    },
    "engines": {
       "node": ">=14.0.0"
    },
    "scripts": {
       "clean": "rimraf build",
-      "build": "npm run clean && tsc && tsc --project tsconfig.types.json",
+      "build": "npm run clean && npm run build:main && npm run build:types && npm run build:cli",
+      "build:main": "tsc --project tsconfig.main.json",
+      "build:types": "tsc --project tsconfig.types.json",
+      "build:cli": "webpack",
       "test": "echo none lol"
    },
    "repository": {
@@ -27,19 +30,20 @@
    },
    "homepage": "https://github.com/autumnblazey/opussmol#readme",
    "dependencies": {
-      "chalk": "^4.1.0",
       "execa": "^5.0.0",
       "fs-extra": "^9.0.1",
-      "immutable": "^4.0.0-rc.12",
-      "mmmh": "^0.1.0",
-      "tslib": "^2.0.3",
-      "yargs": "^16.2.0"
+      "mmmh": "^0.1.0"
    },
    "devDependencies": {
       "@types/fs-extra": "^9.0.6",
       "@types/yargs": "^15.0.12",
+      "chalk": "^4.1.0",
       "eslint": "^7.16.0",
       "rimraf": "^3.0.2",
-      "typescript": "^4.1.3"
+      "ts-loader": "^8.0.13",
+      "typescript": "^4.1.3",
+      "webpack": "^5.11.1",
+      "webpack-cli": "^4.3.1",
+      "yargs": "^16.2.0"
    }
 }
