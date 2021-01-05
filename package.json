@@ -16,7 +16,8 @@
       "build:main": "tsc --project tsconfig.main.json",
       "build:types": "tsc --project tsconfig.types.json",
       "build:cli": "webpack",
-      "test": "echo none lol"
+      "test": "echo none lol",
+      "prepublishOnly": "npm run build"
    },
    "repository": {
       "type": "git",
