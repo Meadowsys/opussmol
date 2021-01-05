@@ -2,6 +2,8 @@
 
 smol bit of stuff that takes an input music file and reencodes it using opus to try to get it as close to a floppy disk size (1440K) as possible without going over. More options and more docs coming soon
 
+module use right now is not recommended, its quite disorganised and lacks documentation
+
 not very customizable right now but does the job quite nicely
 
 ## installation
